@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   width: 100%;
@@ -39,10 +43,6 @@ ul {
   text-decoration: none;
 }
 
-.search,
-.cart {
-  font-size: 20px;
-}
 
 .content {
   position: fixed;

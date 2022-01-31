@@ -89,18 +89,6 @@ ul {
   background-color: #F2A506;
 }
 
-.more a:hover {
-  color: #F2A506;
-  background: #000;
-  background-color: #fff;
-}
-
-.more a:active {
-  color: #F2A506;
-  background: #000;
-  background-color: #fff;
-}
-
 .desc {
   flex: 0 0 24%;
   color: #FBFFE2
@@ -275,7 +263,7 @@ ul {
 
   .nav .menu {
     position: fixed;
-    height: 100vh;
+    height: 50vh;
     left: -100%;
     top: 0;
     text-align: center;
@@ -315,7 +303,72 @@ ul {
     position: fixed;
   }
 
-  
+  .tagline {
+    font-size: 15px;
+    padding-top: 20px
+  }
+
+  .title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .hero img {
+    animation: float 4s ease-in-out infinite;
+    max-height: 225px;
+    max-width: 225px;
+    padding-left: -100px;
+  }
+
+  .content {
+    position: fixed;
+    top: 27%;
+    left: 25%;
+    padding-left: 100px;
+    padding-top: 106px;
+  }
+
+  .more a {
+    font-size: 10px;
+    padding: 5px 15px;
+  }
+
+  .more {
+    padding-top: 350px
+  }
 
 
+  .arrows button {
+    border: 1px solid #999;
+    border-radius: 50%;
+    outline: none;
+    padding-left: -250px;
+    padding: 10px;
+  }
+
+  .arrows .prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+  }
+
+  .arrows .next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+  }
+
+  .desc p:nth-child(1) {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .desc p:nth-child(2) {
+    line-height: 1;
+  }
+
+
+  .desc {
+    padding-top: 600px
+  }
 }

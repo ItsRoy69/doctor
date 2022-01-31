@@ -117,9 +117,15 @@ TweenMax.from(".arrows", 1, {
   ease: Expo.easeInOut
 })
 
-
+//Day-Night Toggle
 const switchElement = document.querySelector('.switch')
 
 switchElement.addEventListener('click', () => {
   document.body.classList.toggle('dark')
 })
+
+// toggle menu/navbar script
+  $(".menu-btn").click(function () {
+    $(".nav .menu").toggleClass("active");
+    $(".menu-btn i").toggleClass("active");
+  });

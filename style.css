@@ -39,6 +39,14 @@ ul {
   text-decoration: none;
 }
 
+/* menu btn styling */
+.menu-btn {
+  color: #FFC900;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
 
 .content {
   position: fixed;
@@ -251,4 +259,63 @@ ul {
 
 .dark p {
   color:#000;
+}
+
+
+@media (max-width: 947px) {
+  .menu-btn {
+    display: block;
+    z-index: 999;
+    padding-right: 100px
+  }
+
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+
+  .nav .menu {
+    position: fixed;
+    height: 100vh;
+    left: -100%;
+    top: 0;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+    display: block;
+  }
+
+  .nav .menu.active {
+    left: 0;
+  }
+
+
+  .nav .menu a {
+    margin: 0;
+    font-size: 10px;
+    padding-right: 10px
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+
+  .switch {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    position: fixed;
+  }
+
+  
+
+
 }

@@ -373,6 +373,8 @@ ul {
 
   .virus {
     position: relative;
+    width: 0%;
+  height: 0vh;
   }
 
   .virus .layer:nth-child(1) {

@@ -367,8 +367,37 @@ ul {
     line-height: 1;
   }
 
-
   .desc {
     padding-top: 600px
   }
+
+  .virus {
+    position: relative;
+  }
+
+  .virus .layer:nth-child(1) {
+    top: -100px !important;
+    left: -200px !important;
+  }
+
+  .virus .layer:nth-child(2) {
+    top: 10px !important;
+    left: 80px !important;
+  }
+
+  .virus .layer:nth-child(3) {
+    top: -300px !important;
+    left: 80px !important;
+  }
+
+  .virus .layer:nth-child(4) {
+    top: -10px !important;
+    left: 80px !important;
+  }
+
+  .virus .layer:nth-child(5) {
+    top: 100px !important;
+    left: -320px !important;
+  }
+
 }
